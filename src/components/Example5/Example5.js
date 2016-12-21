@@ -21,7 +21,6 @@ export default class Example5 extends Component {
       backdropStyle: {
         width: 0,
         height: 0,
-        borderRadius: 0
       }
     };
   }
@@ -107,9 +106,8 @@ export default class Example5 extends Component {
         },
         backdropStyle: {
           $merge: {
-            width: animate(window.innerWidth * 3),
-            height: animate(window.innerHeight * 3),
-            borderRadius: animate(window.innerWidth * 3)
+            width: animate(window.innerWidth * 10),
+            height: animate(window.innerHeight * 10)
           }
         }
       }));
@@ -135,7 +133,6 @@ export default class Example5 extends Component {
         $merge: {
           width: animate(0),
           height: animate(0),
-          // borderRadius: animate(0)
         }
       }
     }));
