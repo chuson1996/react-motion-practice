@@ -1,0 +1,22 @@
+@import './theme/variables.scss';
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-family: Poppins;
+	background-color: $bg-color;
+	font-size: 18px;
+}
+
+button {
+	font-size: 18px;
+	font-family: Poppins;
+	&:focus {
+		outline: none;
+	}
+}
+
+h1 {
+	font-weight: 700;
+}

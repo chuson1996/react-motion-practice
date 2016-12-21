@@ -1,0 +1,21 @@
+@import '../../theme/variables.scss';
+
+.example5 {
+	display: inline-block;
+	.backdrop {
+		position: fixed;
+		top: 0;
+		right: 0;
+		z-index: 95;
+		background: $color1;
+		transform: translate(50%, -50%);
+	}
+	.container {
+		// display: inline-block;
+		// padding: 5px;
+		.photo {
+			width: 300px;
+			// height: 200px;
+		}
+	}
+}

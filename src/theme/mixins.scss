@@ -1,0 +1,13 @@
+@mixin button($color) {
+  color: $color;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid $color;
+  transition: all .1s ease-in;
+  vertical-align: top;
+
+  &:active {
+    background-color: $color;
+    color: $bg-color;
+  }
+}

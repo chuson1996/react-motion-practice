@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  font-family: Poppins;
+}
+
+.example1 {
+   /*width: 249px;*/
+   text-align: left;
+   display: inline-block;
+}
+
+.example1 .block {
+  background-color: red;
+  height: 53px;
+  position: absolute;
+}
+
+.example1 h1{
+  display: inline-block;
+  margin: 0;
+}
